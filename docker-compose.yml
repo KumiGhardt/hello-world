@@ -2,6 +2,7 @@ version: "3"
 services:
     kumi-app:
         build: .
+        image: kumigernhardt/hello-world-imag 
         ports: 
             - "3000:3000"
         volumes:

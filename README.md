@@ -6,11 +6,11 @@ Using the official node image, I created a custom node image based on the offici
 
 # Instructions
 - Install Docker
-- 
+
 ```
 build: docker build -t hello-world-image .
 
-run: docker-compose up -d 
+run: docker-compose up -d --build
 
 remove: docker-compose down -v
 
